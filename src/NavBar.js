@@ -19,6 +19,11 @@ function NavBar() {
             </Link>
           </li>
           <li>
+            <Link to="/gallery">
+            <a href="#" className="text-white hover:text-violet-50 transition-colors">Gallery</a>
+            </Link>
+          </li>
+          <li>
             <Link to="/contact">
             <a href="#" className="text-white hover:text-violet-50  transition-colors">Contact</a>
             </Link>
