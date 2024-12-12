@@ -4,6 +4,8 @@ import Splash from './Splash';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
+import Terms from './Terms';
+import Privacy from './Privacy';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -17,11 +19,13 @@ function App() {
           <Route path="/" element={<Splash />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/contact" element={<Contact />}/>
+          <Route path="/terms" element={<Terms />}/>
+          <Route path='/privacy' element={<Privacy />} />
       </Routes>
+      <Footer />
       </BrowserRouter>
       </div>
       </div>
-      <Footer />
     </>
   );
 }
