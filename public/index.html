@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Staatliches&display=swap" rel="stylesheet">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -40,4 +44,10 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="contactName" />
+    <input type="tel" name="contactPhone" />
+    <input type="email" name="contactEmail" />
+    <textarea name="message"></textarea>
+  </form>
 </html>
