@@ -1,7 +1,7 @@
 import React from "react";
-import Landing from "./images/Landing.png";
-import Noty from "./images/Noty.png";
-import instructions from "./images/instructions.png";
+import phone1 from "./images/phone1.png";
+import phone2 from "./images/phone2.png";
+import phone3 from "./images/phone3.png";
 // create a splash component
 function Splash() {
   return (
@@ -19,18 +19,18 @@ function Splash() {
       {/* Images Section */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8">
         <img
-          className="w-full md:w-1/3 h-auto object-cover"
-          src={Landing}
+          className="w-full md:w-1/3 h-auto object-cover bg-transparent"
+          src={phone1}
           alt="Landing"
         />
         <img
           className="w-full md:w-1/3 h-auto object-cover"
-          src={Noty}
+          src={phone2}
           alt="Noty"
         />
         <img
           className="w-full md:w-1/3 h-auto object-cover"
-          src={instructions}
+          src={phone3}
           alt="Instuctions"
         />
       </div>
