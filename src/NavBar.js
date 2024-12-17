@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import remelly from "./images/remelly.png";
 
 // create a navigation bar component
 function NavBar() {
@@ -7,7 +8,12 @@ function NavBar() {
     <nav className="w-full sticky top-0 z-10 font-semibold bg-indigo-500 text-zinc-100 shadow-lg p-4">
       <div className="flex items-center justify-between mx-auto max-w-7xl">
         {/* Brand Name */}
-        <Link to="/">
+        <Link to="/" className="flex items-center space-x-2">
+          <img
+            className="w-8 h-8"
+            src={remelly}
+            alt="elephant logo"
+          />
           <h1 className="text-white text-xl font-bold font-pacifico">
             Remelephant
           </h1>
