@@ -10,6 +10,14 @@ function Footer() {
           <li>
             <p className="text-center text-xs">
               &copy;{new Date().getFullYear()} Remelephant. All rights reserved.
+              Icon by{" "}
+              <a
+                href="https://www.freepik.com/icon/elephant_4775740"
+                target="_blank"
+              >
+                FreePik
+              </a>
+              .
             </p>
           </li>
           <li>
